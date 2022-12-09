@@ -4,9 +4,9 @@ const cTable = require("console.table");
 
 const connection = mysql.createConnection({
     host: "localhost",
-    //port: 3306,
+    port: 3306,
     user: "root",
-    password:"jk123",
+    password:"Ieatass1998#",
     database: "employee_tracker"
 });
 
@@ -68,7 +68,7 @@ function runSearch() {
 //See All of the Employee's Function
 function viewAll() {
     connection.query(
-        "SELECT employee.id, employee.first_name, employee.last_name, employee.role_id, employee.manager_id, role.title, role.salary, role.id, department.id FROM employee LEFT JOIN role ON employee.role_id = role.id LEFT JOIN department ON role.department_id = department_id",
+        "SELECT employee.id, employee.first_name, employee.last_name, employee.role_id, employee.manager_id, role.title, role.salary, role.id, department.id FROM employee LEFT JOIN role ON employee.role_id = role.id LEFT JOIN department ON role.department_id = department.id",
         function(err, result, fields) {
             if (err) throw err;
             console.table(result);
@@ -115,7 +115,7 @@ function lookupEmployee(){
     connection.query("SELECT * FROM employee", function (err, data) {
         if (err) throw err;
         for (i = 0; i < data.length; i++) {
-            empChoices.push(data[i].id + "-" + data[i].first_name+" "+ data[id].last_name)
+            empChoices.push(data[i].id + "-" + data[i].first_name+" "+ data[i].last_name)
         }
     })
 };

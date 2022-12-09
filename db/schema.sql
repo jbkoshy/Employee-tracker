@@ -17,7 +17,7 @@ INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("John",
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Lebron", "James", 2, 1);
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Russell", "Westbrook", 4, 1);
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Peter", "Griffin", 3, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Stewie", "Griffin", 5, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Stewie", "Tolbert", 5, 1);
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Lauren", "Bagel", 2, 1);
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Chris", "Paul", 3, 1);
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Tony", "Parker", 1, 1);
