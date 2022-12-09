@@ -40,4 +40,8 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Screenshots
 
+<img width="1440" alt="Screen Shot 2022-12-08 at 9 49 10 PM" src="https://user-images.githubusercontent.com/112911066/206620009-ebd9726c-f70c-4d7c-bbd7-e425d2ac0b39.png">
+
+
 ## Link
+(Video Link)[https://drive.google.com/file/d/1aH-ySxUzFSIVh4VWHwavQx4FS12dt41Y/view]
